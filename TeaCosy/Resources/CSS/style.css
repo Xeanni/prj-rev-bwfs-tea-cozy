@@ -1,0 +1,150 @@
+/* Universal Styles */
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
+}
+
+/* Header Styles */
+header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width:1200px;
+  margin: auto;
+}
+
+div {
+  display: block;
+}
+
+/* Mission Section Styles */
+
+#mission {
+  padding-top: 70px;
+  height: 700px;
+  background-image: url(/Users/sadodds/Documents/Projects/TeaCosy/Resources/images/img-mission-background.jpg);
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Store Section Styles */
+
+#store {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+/* Location Section Styles */
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url(/Users/sadodds/Documents/Projects/TeaCosy/Resources/images/img-locations-background.jpg);
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+.location {
+  opacity: 1.0px;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Contact Section Styles */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer Section Styles */
+
+footer {
+  display: block;
+  text-align: left;
+  padding-left: 20px;
+}
